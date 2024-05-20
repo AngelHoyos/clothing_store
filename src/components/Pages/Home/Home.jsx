@@ -6,7 +6,7 @@ export const Home = () => {
   return (
     <>
     <Header>
-    <section className='w-full h-full' >
+    <section className='w-full h-full bg-cover bg-center absolute' style={{ backgroundImage: 'url(/backHeader.jpg)'}}>
     <div className='w-2/5 bg-gray-700  text-black text-2xl relative my-5'>
       <p  className='font-OpenSans'>
         <span>COMPRA UN JEAN</span>

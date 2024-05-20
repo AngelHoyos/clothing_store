@@ -7,7 +7,7 @@ export const NavBar = ({children}) => {
             <img src={LogoZara} alt=""  className='rounded-full w-full'/>
             <p className='font-Yellowtail text-5xl ml-10 text-ColorOfText_2-0'>Zara</p>
         </div>
-        <ul className='flex w-3/6 justify-evenly items-center'>
+        <ul className='flex w-3/6 justify-center items-center'>
             {children}
         </ul>
     </nav>
